@@ -1,0 +1,29 @@
+{
+    "name": "Harris Knafla",
+    "location": "Hamburg, Germany",
+    "school": "Heinrich-Hertz-Schule",
+    "degree": "Abitur 2025",
+    "interests": [
+      "Softwareentwicklung",
+      "Automatisierung von Prozessen",
+      "AI Integration"
+    ],
+    "certificates": [
+      "Microsoft AZ-900: Azure Fundamentals",
+      "Google AI Essentials"
+    ],
+    "experience": [
+      {
+        "company": "Techniker Krankenkasse",
+        "department": "IT Projektentwicklung",
+        "duration": "09/2020 - 10/2020",
+        "description": "Erfahrung mit Java gesammelt."
+      },
+      {
+        "company": "BRAUN Hamburg",
+        "department": "Marketing",
+        "duration": "06/2024 - 07/2024",
+        "description": "Erstellung einer Marketingstrategie."
+      }
+    ]
+  }

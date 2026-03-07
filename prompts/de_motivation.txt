@@ -1,0 +1,19 @@
+Erstelle ein Motivationsschreiben.
+
+JOB TITLE:
+{{ job_title }}
+
+JOB DESCRIPTION:
+{{ job_description }}
+
+PROFIL:
+{{ profile_json }}
+
+Anforderungen:
+
+- Maximal 300 Wörter
+- Professioneller Ton
+- Zeige klar warum das Profil zur Stelle passt
+- Verwende Informationen aus Praktika, Zertifikaten und Interessen
+
+Gib nur den finalen Text zurück.
