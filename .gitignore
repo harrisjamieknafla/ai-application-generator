@@ -1,2 +1,35 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*
+# Environment Variables (geheim!)
+.env
+.env.local
+.env.*.local
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System & OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Azure
+.azure/
+
+# Streamlit Cache
+.streamlit/secrets.toml
+.streamlit/logger.log

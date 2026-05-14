@@ -52,9 +52,9 @@ def generate_letter(job_title, job_description, file_content=None):
     )
 
     # OpenAI Anfrage
-    response = client.responses.create(
-        model="gpt-4.1-mini",
-        input=prompt
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": prompt}]
     )
 
-    return response.output_text
+    return response.choices[0].message.content

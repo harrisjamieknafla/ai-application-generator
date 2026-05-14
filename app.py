@@ -8,7 +8,7 @@ st.set_page_config(page_title="AI Application Generator", layout="centered")
 st.title("AI Application Generator")
 st.write("Generiere ein Motivationsschreiben basierend auf deinem Profil, einer Job Description und optional einer hochgeladenen Datei.")
 
-job_title = st.text_input("Job Title")
+job_title = st.text_input("Job Titel")
 job_description = st.text_area("Job Description", height=200)
 
 uploaded_file = st.file_uploader("Datei hochladen (optional)", type=["json", "txt"])
@@ -30,4 +30,4 @@ if st.button("Generate"):
         st.write(text)
 
     else:
-        st.error("Bitte Job Title und Job Description eingeben.")
+        st.error("Bitte Job Titel und Job Description eingeben.")
