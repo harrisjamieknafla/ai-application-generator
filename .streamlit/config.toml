@@ -1,0 +1,10 @@
+[client]
+showErrorDetails = true
+
+[server]
+port = 8000
+headless = true
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
