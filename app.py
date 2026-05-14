@@ -5,7 +5,7 @@ from generator import generate_letter
 
 st.set_page_config(page_title="AI Application Generator", layout="centered")
 
-st.title("AI Application Generator")
+st.title("My AI Application Generator")
 st.write("Generiere ein Motivationsschreiben basierend auf deinem Profil, einer Job Description und optional einer hochgeladenen Datei.")
 
 job_title = st.text_input("Job Titel")
