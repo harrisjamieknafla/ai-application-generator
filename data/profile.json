@@ -1,8 +1,13 @@
 {
-    "name": "Harris Knafla",
-    "location": "Hamburg, Germany",
+    "name": "Harris Jamie Knafla",
+    "location": "Ulmenstraße 36a, 22299 Hamburg",
     "school": "Heinrich-Hertz-Schule",
     "degree": "Abitur 2025",
+    "technical skills": [
+      "Python",
+      "Microsoft Azure Cloud Services",
+      "AI Integration"
+    ],
     "interests": [
       "Softwareentwicklung",
       "Automatisierung von Prozessen",
@@ -10,14 +15,22 @@
     ],
     "certificates": [
       "Microsoft AZ-900: Azure Fundamentals",
-      "Google AI Essentials"
+      "Google AI Essentials",
+      "Deep Learning KI für alle"
     ],
-    "experience": [
+     "current Job": [
+      {
+        "company": "Fitness First",
+        "description": "Fitness Trainer",
+        "duration": "01/2026 - bis heute"
+      }
+    ],
+    "praktika": [
       {
         "company": "Techniker Krankenkasse",
         "department": "IT Projektentwicklung",
         "duration": "09/2020 - 10/2020",
-        "description": "Erfahrung mit Java gesammelt."
+        "description": "Erfahrungen mit Java gesammelt."
       },
       {
         "company": "BRAUN Hamburg",

@@ -13,7 +13,10 @@ Anforderungen:
 
 - Maximal 300 Wörter
 - Professioneller Ton
-- Zeige klar warum das Profil zur Stelle passt
-- Verwende Informationen aus Praktika, Zertifikaten und Interessen
+- Zeige klar warum mein Profil zur Stelle passt und warum ich geeignet bin
+- Zeige warum ich mich genau auf diese Stelle bewerbe
+- Verwende Informationen aus dem Praktikum bei der Techniker Krankenkasse, Zertifikaten und Interessen
+- Schreibe kein Datum!
+- Schreibe oben als Absendeadresse Harris Jamie Knafla <neue Zeile> Ulmenstraße 36a <neue Zeile> 22299 Hamburg
 
 Gib nur den finalen Text zurück.

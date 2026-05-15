@@ -24,7 +24,7 @@ def load_prompt():
 
 
 # AI Motivationsschreiben generieren
-def generate_letter(job_title, job_description, file_content=None):
+def generate_letter(job_title, job_description):
 
     # .env laden
     load_dotenv()

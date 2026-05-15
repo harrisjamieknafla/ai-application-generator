@@ -11,20 +11,13 @@ st.write("Generiere ein Motivationsschreiben basierend auf deinem Profil, einer 
 job_title = st.text_input("Job Titel")
 job_description = st.text_area("Job Description", height=200)
 
-uploaded_file = st.file_uploader("Datei hochladen (optional)", type=["json", "txt"])
-
-file_content = None
-if uploaded_file is not None:
-    file_content = uploaded_file.read().decode("utf-8")
-    st.success(f"Datei hochgeladen: {uploaded_file.name}")
-
 if st.button("Generate"):
 
     if job_title and job_description:
 
         with st.spinner("Generiere Text..."):
 
-            text = generate_letter(job_title, job_description, file_content)
+            text = generate_letter(job_title, job_description)
 
         st.subheader("Ergebnis")
         st.write(text)
